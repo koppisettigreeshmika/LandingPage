@@ -6,97 +6,59 @@
 }
 
 body{
-    background:#f4f4f4;
+    background:#f2f2f2;
+    text-align:center;
 }
 
 header{
-    background:#0d6efd;
+    background:#0b7bbd;
     color:white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 50px;
-}
-
-.logo{
-    font-size:28px;
+    padding:20px;
+    font-size:24px;
     font-weight:bold;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-size:18px;
 }
 
 .hero{
-    background:linear-gradient(to right,#0d6efd,#00b4db);
-    color:white;
-    text-align:center;
-    padding:120px 20px;
+    background:white;
+    padding:70px 20px;
 }
 
-.hero h1{
-    font-size:45px;
+.hero h2{
+    font-size:32px;
+    margin-bottom:10px;
 }
 
 .hero p{
-    margin:20px 0;
-    font-size:20px;
+    margin-bottom:20px;
+    color:#555;
 }
 
-.btn{
-    display:inline-block;
-    padding:12px 30px;
-    background:white;
-    color:#0d6efd;
-    text-decoration:none;
+button{
+    background:#2196F3;
+    color:white;
+    border:none;
+    padding:10px 20px;
     border-radius:5px;
-    font-weight:bold;
+    cursor:pointer;
+    font-size:16px;
 }
 
-.about{
-    padding:60px 20px;
-    text-align:center;
+button:hover{
+    background:#0b7bbd;
 }
 
 .services{
-    padding:60px 20px;
-    text-align:center;
-}
-
-.service-box{
     background:white;
-    width:300px;
-    margin:20px auto;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,.2);
+    padding:50px 20px;
 }
 
-.contact{
-    padding:60px 20px;
-    text-align:center;
+.services h2{
+    margin-bottom:15px;
 }
 
 footer{
-    background:#222;
+    background:#0b4ea2;
     color:white;
-    text-align:center;
-    padding:20px;
-}
-
-nav a:hover{
-    color:yellow;
-}
-
-.btn:hover{
-    background:#ffd700;
-    color:black;
-}
-
-.service-box:hover{
-    transform:scale(1.05);
-    transition:0.3s;
+    padding:15px;
+    margin-top:20px;
 }
