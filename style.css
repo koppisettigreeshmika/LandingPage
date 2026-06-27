@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+.hero{
+    background:linear-gradient(to right,#0d6efd,#00b4db);
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:white;
+    color:#0d6efd;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.about{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.services{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.service-box{
+    background:white;
+    width:300px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.contact{
+    padding:60px 20px;
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.btn:hover{
+    background:#ffd700;
+    color:black;
+}
+
+.service-box:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
